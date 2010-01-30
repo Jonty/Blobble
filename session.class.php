@@ -108,4 +108,22 @@
             return $oUserUpdate->execute($aUserData);
         }
 
+        function getMacs() {
+            $db = $this->db();
+
+            $oMacFetch = $db->prepare(
+                'SELECT mac FROM users;'
+            );
+
+            // Create the table if it doesn't exist
+            $oMacFetch->execute();
+
+            $aMacData = null;
+            if ($aRows = $oMacFetch->fetchAll()) {
+                $aMacData = $aRows;
+            }
+
+            return $aMacData;
+        }
+
     }
