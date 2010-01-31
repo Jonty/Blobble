@@ -10,10 +10,10 @@ Server
 -			they belong to.
 		
 		Fetching
-			Fetches a list of all known mac addresses to scan for.
+-			Fetches a list of all known mac addresses to scan for.
 
 Client
-	On start, downloads the mac address file, reloads once an hour
-	Continuously checks if any of the known mac addresses are present
-	Polls the specified users WS feed every 3mins to check if it has scrobbled a track
-		If so, posts back to the main service with all the known visible mac addresses
+-	On start, downloads the mac address file, reloads once an hour
+-	Continuously checks if any of the known mac addresses are present
+-	Polls the specified users WS feed every 3mins to check if it has scrobbled a track
+-		If so, posts back to the main service with all the known visible mac addresses
