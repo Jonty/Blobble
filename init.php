@@ -1,8 +1,8 @@
 <?php
 
-    require_once('php-last.fm-api/src/lastfm.api.php');
-    require_once('session.class.php');
-    require_once('scrobbler.class.php');
+    require_once('lib/php-last.fm-api/src/lastfm.api.php');
+    require_once('lib/session.class.php');
+    require_once('lib/scrobbler.class.php');
 
     $oSession = new Session();
     $oSession->createDb();
