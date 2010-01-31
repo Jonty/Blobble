@@ -52,7 +52,7 @@
             $response = curl_exec($this->curl);
             $aLines = explode("\n", $response);
 
-            if (count($aLines) == 4) {
+            if (count($aLines) == 5) {
                 $this->scrobblesession = $aLines[1];
                 $this->suburl = $aLines[3];
                 return true;
