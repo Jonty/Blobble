@@ -36,7 +36,7 @@
                 array(
                     'hs'    => 'true',
                     'p'     => '1.2.1',
-                    'c'     => 'tst',
+                    'c'     => 'blb',
                     'v'     => '1.0',
                     'u'     => $this->user,
                     't'     => $now,
